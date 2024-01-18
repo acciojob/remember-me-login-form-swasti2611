@@ -22,7 +22,7 @@
                 localStorage.setItem('username', usernameInput.value);
                 localStorage.setItem('password', passwordInput.value);
                 // Show existing user button
-               // existingButton.style.display = 'block';
+               existingButton.style.display = 'block';
             } else {
                 // Remove details from local storage
                 localStorage.removeItem('username');
