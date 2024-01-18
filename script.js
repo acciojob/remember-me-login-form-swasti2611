@@ -6,7 +6,9 @@
         if (savedUsername && savedPassword) {
             // Show existing user button
             existingButton.style.display = 'block';
-        }
+        }else{
+			existingButton.style.display = 'none';
+		}
 
         // Add event listener for form submission
         document.getElementById('loginForm').addEventListener('submit', function (event) {
